@@ -1,4 +1,4 @@
-package xyz.nahidwin.lot5;
+package xyz.nahidwin.lot5.model;
 
 public class InvalidPhoneFormatException extends InvalidFormatException {
     public InvalidPhoneFormatException() {

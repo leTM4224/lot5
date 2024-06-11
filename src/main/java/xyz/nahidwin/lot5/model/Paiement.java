@@ -1,4 +1,4 @@
-package xyz.nahidwin.lot5;
+package xyz.nahidwin.lot5.model;
 
 public abstract class Paiement {
     protected boolean realise;

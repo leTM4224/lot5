@@ -1,4 +1,4 @@
-package xyz.nahidwin.lot5;
+package xyz.nahidwin.lot5.model;
 
 public class Billet {
     private String numero;

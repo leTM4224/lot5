@@ -1,4 +1,4 @@
-package xyz.nahidwin.lot5;
+package xyz.nahidwin.lot5.view;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

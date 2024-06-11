@@ -1,4 +1,4 @@
-package xyz.nahidwin.lot5;
+package xyz.nahidwin.lot5.model;
 
 public class InvalidMailFormatException extends InvalidFormatException {
     public InvalidMailFormatException() {
