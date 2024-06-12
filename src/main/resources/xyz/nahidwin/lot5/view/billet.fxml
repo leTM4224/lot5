@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xyz.nahidwin.lot5.ctrlBillet">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xyz.nahidwin.lot5.ctrlBillet">
    <children>
       <HBox alignment="CENTER_LEFT" spacing="10.0">
          <children>
@@ -32,9 +32,9 @@
             </VBox>
          </children>
       </HBox>
-      <VBox alignment="TOP_CENTER" spacing="10.0">
+      <VBox spacing="10.0" HBox.hgrow="ALWAYS">
          <children>
-            <HBox spacing="20.0">
+            <HBox alignment="TOP_CENTER" spacing="20.0">
                <children>
                   <Label fx:id="txtPayment" text="état payement" />
                   <Label fx:id="txtDateReserv" text="date réservation" />
